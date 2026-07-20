@@ -22,7 +22,7 @@ export default function Page() {
         </p>
         <h2 className="mt-3 font-serif text-4xl text-foreground md:text-5xl">RSVP</h2>
         <p className="mx-auto mt-4 max-w-md font-sans text-lg leading-relaxed text-muted-foreground text-pretty">
-          Please let us know by 30 August 2026 so we can save you a seat.
+          Please let us know by 15 September 2026 so we can save you a seat.
         </p>
         <a
           href="https://withjoy.com/mufrat-and-nazia/rsvp"
@@ -30,7 +30,7 @@ export default function Page() {
           rel="noopener noreferrer"
           className="mt-8 inline-flex items-center gap-2 rounded-full bg-primary px-10 py-4 font-sans text-base font-medium text-primary-foreground transition hover:bg-primary/90"
         >
-          RSVP via WithJoy
+          RSVP
         </a>
       </section>
       <Divider />

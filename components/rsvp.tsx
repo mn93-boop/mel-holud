@@ -23,7 +23,7 @@ export function Rsvp() {
             Will you join us?
           </h2>
           <p className="mt-4 font-sans text-sm leading-relaxed text-muted-foreground">
-            Please let us know by 30 August 2026 so we can save you a seat.
+            Please let us know by 15 September 2026 so we can save you a seat.
           </p>
         </div>
 
