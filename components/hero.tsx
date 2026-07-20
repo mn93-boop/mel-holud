@@ -62,6 +62,15 @@ export function Hero() {
             of applying turmeric to usher in good fortune, bright beginnings, and
             endless blessings for the couple.
           </p>
+
+          <a
+            href="https://withjoy.com/mufrat-and-nazia/rsvp"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-8 inline-flex items-center gap-2 rounded-full bg-primary px-10 py-4 font-sans text-base font-medium text-primary-foreground transition hover:bg-primary/90"
+          >
+            RSVP
+          </a>
         </div>
       </div>
     </section>
