@@ -43,12 +43,12 @@ export function Countdown() {
           {units.map((unit) => (
             <div
               key={unit.label}
-              className="flex flex-col items-center rounded-2xl border border-border bg-card px-2 py-5 shadow-sm md:py-7"
+              className="flex flex-col items-center overflow-hidden rounded-2xl border border-border bg-card px-1 py-4 shadow-sm md:px-2 md:py-7"
             >
-              <span className="font-serif text-4xl font-semibold text-primary tabular-nums md:text-6xl">
+              <span className="font-serif text-3xl font-semibold text-primary tabular-nums md:text-6xl">
                 {mounted ? String(unit.value).padStart(2, '0') : '--'}
               </span>
-              <span className="mt-2 font-sans text-[0.65rem] uppercase tracking-[0.25em] text-muted-foreground md:text-xs">
+              <span className="mt-2 font-sans text-[0.55rem] uppercase tracking-[0.15em] text-muted-foreground md:text-xs md:tracking-[0.25em]">
                 {unit.label}
               </span>
             </div>
